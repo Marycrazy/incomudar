@@ -14,7 +14,7 @@ while i < int(limit):
     pt.typewrite(message)
     # the message is written where -
     # the cursor belongs      
-
+    #time.sleep(1)#para meter um tempo entre as mensagens 
     pt.press("enter")
     i+=1
     print(i)
